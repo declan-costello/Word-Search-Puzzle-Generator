@@ -1,0 +1,9 @@
+# Word-Search-Puzzle-Generator
+
+For this project I developed a class in Java that can be used to generate word search puzzles using a two-dimensional grid. I was required to let a user either pass in a list of words to be used for generating the word search grid or to supply a filename and the program would generate the grid using words from that file. If the user wishes to use a filename then they would also specify how many words from the file they want to use in the puzzle and of what length these words should be.
+
+The dimensions of the puzzle grid are set using a calculation involving a scaling factor and the lengths of the words being used. The words are placed at random positions on the grid and in random directions (in all possible directions). The words also have the ability to interlock on the grid.
+
+As well as two overloaded constructors, I provided several public methods in the class that perform useful operations such as returning the list of words used in the puzzle, returning the generated grid as a two-dimensional array, returning the generated grid as a String and formatted correctly, displaying the grid and the list of words used to create it, displaying the grid and the list of words used to create it along with details of where each word is located on the grid (co-ordinates) and the direction used to place it. There are also several private methods used within the class that perform operations such as generating the puzzle, reading words from a file, calculating the dimensions of the grid, filling the grid with hyphens, finding the longest word and filling the puzzlewords list.
+
+In the driver program I have created several puzzles using both a list and text files for puzzle generation. Also I have included several failed attempts at creating puzzles in order to display the validation provided by the program.
